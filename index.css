@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  padding:0;
+  font-family: 'Tajaval', sans-serif;
+  background-color: #f3f0f0 !important;
+}
+html
+{
+scroll-behavior: smooth
+}
+:root{
+  --main-color: #1f2278;
+  --orange-color :#f17732;
+  -btn-color-color:#9294db;
+}
+section , footer ,header{
+width: 100%;
+height: auto;
+overflow: hidden;
+max-width: 100%;
+padding: 25px 0px;
+margin-top: 5px;
+}
+nav .header
+{
+  width: 100%;
+
+}
+a{
+text-decoration: none !important;
+}
+span{
+display: block;
+}
+ul{
+margin: 0;
+padding: 0;
+}
+li{
+  list-style-type: none;
+}
+button{
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+p{
+  line-height: 28px;
+}
+input{
+  box-sizing: border-box;
+  border: 5px solid white;
+  text-align: left;
+  padding: 5px 15px;
+  color: black;
+  font-size: 16px;
+  font-family: 'Tajawal';
+}
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+video{
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.content {
+position: absolute;
+width: 100%;
+  height: 100%;
+  top: 0%;
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  font-family: 'Courier New', Courier, monospace;
+  color: darkgoldenrod;
+}
+
