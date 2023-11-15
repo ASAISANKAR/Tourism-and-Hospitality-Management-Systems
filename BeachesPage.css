@@ -1,0 +1,44 @@
+.beach-page {
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  .beach-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .beach-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 300px;
+    text-align: left;
+  }
+  
+  .beach-card h2 {
+    margin-top: 0;
+  }
+  
+  .beach-image {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .beach-location,
+  .beach-description {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  
+  .beach-location {
+    color: #009688;
+  }
+  
+  .beach-description {
+    color: #555;
+  }
